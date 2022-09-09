@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  *main - program to test replacing standard error
  *Return: 1
