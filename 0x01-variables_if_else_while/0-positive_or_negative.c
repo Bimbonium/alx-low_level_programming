@@ -5,7 +5,7 @@
 /**
  * main - function to print positive or negative number
  * funaction takes random number n, and determines the sign
- *Return: 0
+ * Return: 0
  */
 int main(void)
 {
