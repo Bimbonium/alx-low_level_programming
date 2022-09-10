@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -14,10 +15,10 @@ int main(void)
 	char a;
 	char b;
 
-	for (a = a; a <= z; a++)
+	for (a = 'a'; a <= 'z'; a++)
 		putchar(a);
-	for (b = A; A <= Z; A++)
+	for (b = 'A'; A <= 'Z'; A++)
 		putchar(b);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
