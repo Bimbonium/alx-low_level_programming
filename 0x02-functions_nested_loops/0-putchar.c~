@@ -1,0 +1,17 @@
+#include main.h
+
+/**
+ * main - function to print putchar
+ * Return: 0
+ */
+
+int main(void)
+{
+
+	unsigned char a = '_putchar';
+
+	_putchar(a);
+
+	return (0);
+
+}
