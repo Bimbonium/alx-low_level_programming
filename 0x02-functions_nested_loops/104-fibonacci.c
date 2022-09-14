@@ -9,9 +9,9 @@
 int main(void)
 {
 	int i;
-	float sum = 1.0;
-	float j = 2.0;
-	float k;
+	double sum = 1.0;
+	double j = 2.0;
+	double k;
 
 	printf("%.0f, ", sum);
 	for (i = 1; i < 98; i++)
