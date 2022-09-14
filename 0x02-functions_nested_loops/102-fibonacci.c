@@ -14,7 +14,7 @@ int main(void)
 	long int k;
 
 	printf("%ld, ", sum);
-	for (i = 1; i <= 50; i++)
+	for (i = 1; i < 50; i++)
 	{
 		k = sum + j; /* at first run, sum =3*/
 		sum = j;
