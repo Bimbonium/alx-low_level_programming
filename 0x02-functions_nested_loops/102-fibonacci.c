@@ -13,13 +13,13 @@ int main(void)
 	long int j = 2;
 	long int k;
 
-	printf("%d, ", sum);
+	printf("%ld, ", sum);
 	for (i = 1; i <= 50; i++)
 	{
 		k = sum + j; /* at first run, sum =3*/
 		sum = j;
 		j = k;
-		printf("%d, ", sum);
+		printf("%ld, ", sum);
 	}
 	return (0);
 }
