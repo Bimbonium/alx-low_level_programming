@@ -10,9 +10,9 @@ int main(void)
 {
 	int i;
 
-	long double sum = 1.0;
-	long double j = 2.0;
-	long double k;
+	unsigned long double sum = 1.0;
+	unsigned long double j = 2.0;
+	unsigned long double k;
 
 	printf("%.0Lf, ", sum);
 	for (i = 1; i < 98; i++)
