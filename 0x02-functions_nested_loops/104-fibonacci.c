@@ -9,17 +9,17 @@
 int main(void)
 {
 	int i;
-	double sum = 1.0;
-	double j = 2.0;
-	double k;
+	long double sum = 1.0;
+	long double j = 2.0;
+	long double k;
 
-	printf("%.0f, ", sum);
+	printf("%.0lf, ", sum);
 	for (i = 1; i < 98; i++)
 	{
 		k = sum + j; /* at first run, sum =3*/
 		sum = j;
 		j = k;
-		printf("%.0f", sum);
+		printf("%.0lf", sum);
 
 		if (i != 97)
 		{
