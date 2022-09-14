@@ -19,7 +19,9 @@ int main(void)
 		k = sum + j; /* at first run, sum =3*/
 		sum = j;
 		j = k;
-		printf("%ld, ", sum);
+		printf("%ld", sum);
+		if (i < 49)
+			printf(", ");
 	}
 	return (0);
 }
