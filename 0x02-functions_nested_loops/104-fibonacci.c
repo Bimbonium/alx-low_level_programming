@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	long int i;
-	float sum = 1;
-	float j = 2;
+	int i;
+	float sum = 1.0;
+	float j = 2.0;
 	float k;
 
 	printf("%.0f, ", sum);
