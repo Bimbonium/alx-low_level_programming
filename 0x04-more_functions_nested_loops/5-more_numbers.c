@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_most_numbers - check if uppercase
+ * more_numbers - print 0 - 14, 10 times
  *
  * Return: Always 0.
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	int i;
 	int j;
