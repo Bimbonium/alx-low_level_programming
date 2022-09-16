@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-        unsigned int a = 2;
-        unsigned long n = 612852475143;
+	unsigned int a = 2;
+	unsigned long n = 612852475143;
 
-        while (a < n / 2)
+	while (a <= n / 2)
 	{
 		if (n % a == 0)
 		{
