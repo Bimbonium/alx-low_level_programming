@@ -1,27 +1,17 @@
 #include "main.h"
+#include "2-strlen.c"
 /**
- * _puts - function to swap two integers
- * @str: character to test
- * Return: length of s
+ * _puts - puts a string
  *
+ * @str: string to print
  */
-
 void _puts(char *str)
 {
+	int i;
 
-	int i = 0;
-	int j;
-
-	while (i >= 0)
+	for (i = 0; *(str + i) != '\0'; i++)
 	{
-		j = str[i];
-		_putchar (j);
-		i++;
-
-		if (*(str + i) == '\0')
-			break;
+		_putchar(*(str + i));
 	}
-
-	_putchar ('\n');
-
+	_putchar('\n');
 }
