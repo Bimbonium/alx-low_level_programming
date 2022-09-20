@@ -6,14 +6,13 @@
  * @b: integer 2
  */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 
 	int c; /* temp integer */
-	int d;
 
 	c = *a;
-	*a = d;
+	*a = *b;
 	*b = c;
 
 }
