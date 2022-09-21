@@ -20,8 +20,10 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 	}
 	for (; i < n; i++)
+	{
 /* if after all of src is copied, there is space in n*/
 /*then add '\0' to the remaining spaces*/
 		dest[i] = '\0';
+	}
 	return (dest);
 }
