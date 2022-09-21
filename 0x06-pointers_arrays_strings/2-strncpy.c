@@ -1,5 +1,3 @@
-include "main.h"
-
 #include "main.h"
 
 /**
@@ -19,6 +17,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = src[i];
 	}
+
 	for (; i < n; i++)
 	{
 /* if after all of src is copied, there is space in n*/
