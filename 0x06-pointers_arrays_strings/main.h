@@ -2,7 +2,7 @@
 #define MAIN_H
 /* using MAIN_H in place of main.h defining it as a 'macro'*/
 
-
+void print_array(int *a, int n);
 char *_strncpy(char *dest, char *src, int n);
 char *_strncat(char *dest, char *src, int n);
 char *_strcat(char *dest, char *src);
