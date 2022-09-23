@@ -8,7 +8,7 @@
 
 char *leet(char *s)
 {
-	char comp_arr[] = "a4A4e3E3o0O0t7T7l1L1";
+	char comp_arr[20] = "a4A4e3E3o0O0t7T7l1L1";
 	int i;
 	int j;
 
@@ -25,5 +25,6 @@ char *leet(char *s)
 				break;
 			}
 		}
+	}
 		return (s);
 }

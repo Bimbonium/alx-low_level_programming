@@ -11,7 +11,8 @@ char *rot13(char *s)
 
 	char upper[52] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
 	char lower[52] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
-	int i, j;
+	int i;
+	int j = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
