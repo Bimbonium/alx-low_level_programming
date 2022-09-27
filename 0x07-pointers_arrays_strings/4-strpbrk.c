@@ -1,4 +1,4 @@
-#inclulde "main.h"
+#include "main.h"
 
 /**
  * _strpbrk - finds string
