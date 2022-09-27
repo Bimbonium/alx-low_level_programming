@@ -11,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i;
 	unsigned int j;
-	unsigned int counter;
+	unsigned int counter = 0;
 
 	for (i = 0; s[i] != '\0'; i++) /*check through the whole string*/
 	{
@@ -22,6 +22,8 @@ unsigned int _strspn(char *s, char *accept)
 				counter += 1; /* add 1 to counter */
 			}
 		}
+		if (s[i] == '\0') /*takes care of an empty accept string, I think*/
+			return (counter);
 	}
 	return (counter);
 }
