@@ -2,28 +2,32 @@
 
 /**
  * _strspn - function to match strings from accept with part of s
- * @s: larger string
- * @accept: smaller string
+ *the strspn function gives you the number of consecutive characters in the
+ * first string, starting from the beginning, that are also in the
+ * second string.
+ * @s: first string
+ * @accept: second string
  * Return: an integer number that counts from 1 to where accept stops
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i;
-	unsigned int j;
-	unsigned int counter = 0;
+	int i;
+	int j;
+	unsigned int result = 0;
 
-	for (i = 0; s[i] != '\0'; i++) /*check through the whole string*/
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; accept[j] != '\0'; j++)
+		for (j = 0; s[j] != '\0'; j++)
 		{
-			if (s[i] == accept[j]) /* if the strings are equal at i and j*/
+			if (s[i] == accept[j])
 			{
-				counter += 1; /* add 1 to counter */
+				result++;
+				break;
 			}
 		}
-		if (s[i] == '\0') /*takes care of an empty accept string, I think*/
-			return (counter);
+		if (s[j] == '\0')
+			return (result);
 	}
-	return (counter);
+	return (result);
 }
