@@ -2,6 +2,7 @@
 #define MAIN_H
 /* using MAIN_H in place of main.h defining it as a 'macro'*/
 
+int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
