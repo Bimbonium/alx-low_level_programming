@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * power - function to get i*i (in determining square root)
+ * power - function to get i*i (in determining square root)x
  * @i: number to multiply
  * @n: number we want to get square root of
  * Return: i*i if number is a square root of n, or (i+1)*(i+1) if not
@@ -11,7 +11,7 @@ int power(int i, int n)
 {
 	if ((i * i) == n)
 		return (i); /* the number is the square root of n*/
-	else if ((i * i) != n && ((i * i) < n)
+	else if ((i * i) != n && ((i * i) < n))
 		return (power((i + 1), n));
 	else
 		return (-1);
@@ -33,5 +33,5 @@ int _sqrt_recursion(int n)
 	else if (n == 1)
 		return (1);
 	else
-		return (square(1, n));
+		return (power(1, n));
 }
