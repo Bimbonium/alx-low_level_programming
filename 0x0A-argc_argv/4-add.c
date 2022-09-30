@@ -11,7 +11,7 @@
 
 int _isdigit(char *s)
 {
-	int k, l;
+	int k, l; /* k is a counter, and l is the return value*/
 
 	for (k = 0; k != '\0'; k++)
 	{

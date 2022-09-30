@@ -12,5 +12,7 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int power(int i, int n);
 int incrementer(int i, int n);
+int _isdigit(char *s);
+
 
 #endif
