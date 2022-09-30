@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#define UNUSED(x) (void)(x)
 
 /**
  * main - function to print the name of the function
