@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
 #define UNUSED(x) (void)(x)
 
 /**
@@ -34,7 +36,7 @@ int _isdigit(char *s)
 
 
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	int i, j = 0; /* i is a counter and j is to house the sum*/
 
