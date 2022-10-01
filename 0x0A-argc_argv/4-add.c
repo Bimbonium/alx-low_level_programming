@@ -40,23 +40,27 @@ int main(int argc, char *argv[])
 {
 	int i, j = 0; /* i is a counter and j is to house the sum*/
 
-	for (i = 0; i < argc; i++)
+
+	if (argc == 1)
 	{
-		if (argc == 1)
-		{
-			printf("%d\n", 0);
-		}
-		else if (argc > 1 && _isdigit(argv[i]))
-		{
-			j += atoi(argv[i]);
-		}
-		else
-		{
-			printf("Error\n");
-			return (1);
-		}
+		printf("%d\n", 0);
 	}
+	else
+	{
+		for (i = 0; i < argc; i++)
+		{
+			if (argc > 1 && _isdigit(argv[i]))
+			{
+				j += atoi(argv[i]);
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
 
 	printf("%d\n", j);
+	}
 	return (0);
 }
