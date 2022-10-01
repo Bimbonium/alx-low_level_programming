@@ -13,17 +13,15 @@
 
 int _isdigit(char *s)
 {
-	int k, l; /* k is a counter, and l is the return value*/
+	int k; /* k is a counter, and l is the return value*/
 
 	for (k = 0; k != '\0'; k++)
 	{
 		if (isdigit(s[k]))
-			l = 1;
-		else
-			l = 0;
+			return (1);
 	}
 
-	return (l);
+	return (0);
 }
 
 
