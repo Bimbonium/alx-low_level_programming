@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "main.h"
+
 /**
  * main - main function
- * @argc: argumentc
+ * @argc: count of arguments
  * @argv: vector of arguments
  *Return: 0
  */
