@@ -58,10 +58,10 @@ int main(int argc, char *argv[])
 	return (0);
 	}
 
-	else /* i.e. argc !> 1*/
+	else /* i.e. argc < 1*/
 	{
 		printf("%d\n", 0);
-		return (1); /* this return value was not stated in the question*/
+		return (0); /* this return value was not stated in the question*/
 	}
 
 }
