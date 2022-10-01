@@ -15,7 +15,7 @@ int _isdigit(char *s)
 {
 	int k; /* k is a counter, and l is the return value*/
 
-	for (k = 0; k != '\0'; k++)
+	for (k = 0; s[k] != '\0'; k++)
 	{
 		if (isdigit(s[k]))
 			return (1);
