@@ -39,20 +39,15 @@ int main(int argc, char *argv[])
 	int i, j = 0; /* i is a counter and j is to house the sum*/
 
 
-	if (argc == 1)
-	{
-		printf("%d\n", 0);
-		return (1);
-	}
-	else
+	if (argc > 1)
 	{
 		for (i = 0; i < argc; i++)
 		{
-			if (argc > 1 && _isdigit(argv[i]))
+			if (_isdigit(argv[i])) /* if it is a digit*/
 			{
 				j += atoi(argv[i]);
 			}
-			else
+			else /* if it is not a digit*/
 			{
 				printf("Error\n");
 				return (1);
@@ -60,6 +55,13 @@ int main(int argc, char *argv[])
 		}
 
 	printf("%d\n", j);
-	}
 	return (0);
+	}
+
+	else /* i.e. argc !> 1*/
+	{
+		printf("%d\n", 0);
+		return (1); /* this return value was not stated in the question*/
+	}
+
 }
