@@ -24,8 +24,9 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	while (s2[j] != '\0') /* a while loop is a shorter piece of code*/
-				 /*to achieve this*/
+	{		 /*to achieve this*/
 		j++;
+	}
 
 	a = malloc(sizeof(char) * (i + j) + 1);
 
