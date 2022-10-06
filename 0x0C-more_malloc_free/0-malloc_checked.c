@@ -5,12 +5,13 @@
 /**
  * malloc_checked - function to check location to pointer
  * @b: parameter to the function
- * Return: Shouldn't return anything :(
+ * Return: Shouldn't return anything :( but returns t, which is a void
+ * format
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int *t;
+	void *t;
 
 	t = malloc(b);
 
