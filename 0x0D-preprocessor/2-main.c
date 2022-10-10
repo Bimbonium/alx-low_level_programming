@@ -10,7 +10,7 @@ int main(void)
 {
 	/* I could have used argv[0] for this*/
 	/* using argv prints the exe file name and not the ".c" file name*/
-	printf("%s", __FILE__);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
