@@ -1,0 +1,1 @@
+Folder for my variadic functions i.e. functions that have an unknown number of arguments
