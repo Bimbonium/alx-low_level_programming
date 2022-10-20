@@ -1,7 +1,6 @@
-#include <stdio.h>
 #include "lists.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  *list_len - function that returns the length of a list
  *@h: first element in the list
