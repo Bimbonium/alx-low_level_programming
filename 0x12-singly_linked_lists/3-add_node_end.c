@@ -26,8 +26,8 @@ list_t *add_node_end(list_t **head, const char *str)
 	} /*count the length of the string*/
 
 	new_node->str = strdup(str);
-	new_node->next->len = i;
-	new_node->next->next = NULL;
+	new_node->len = i;
+	new_node->next = NULL;
 	if (strdup(str) == NULL)
 	{
 		free(new_node);
