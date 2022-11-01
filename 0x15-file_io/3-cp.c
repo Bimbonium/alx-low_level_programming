@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 	}
 	while ((reader = read(fdsource, buffer, 1024)) > 0)
 	{
-		writer = write(fddest, buffer, 1024);
+		writer = write(fddest, buffer, reader);
 		if (writer == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
