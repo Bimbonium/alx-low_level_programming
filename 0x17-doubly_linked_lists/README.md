@@ -1,0 +1,3 @@
+Foray into doubly linked lists
+Like the singly linked lists, this seems intuitive...
+I require further reading into it tho
