@@ -1,0 +1,1 @@
+Dynamic libraries, the more troublesome, less memory hogging brother of static libraries
